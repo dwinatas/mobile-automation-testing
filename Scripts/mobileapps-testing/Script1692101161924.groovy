@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/lidya/Downloads/Wina/automation-katalon/ABSGLobal-AutomationAPI/Data Files/com.mpayror.www_2018-01-09.apk', 
+Mobile.startApplication('/Users/lidya/Downloads/Wina/automation-katalon/mobile-automation-testing/Data Files/com.mpayror.www_2018-01-09.apk', 
     true)
 
 Mobile.tap(findTestObject('Object Repository/Register/android.widget.Button - REGISTRATION'), 0)
@@ -36,7 +36,9 @@ Mobile.setText(findTestObject('Object Repository/Register/android.widget.EditTex
 
 Mobile.tap(findTestObject('Object Repository/Register/android.widget.TextView - Mobile No'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Register/android.widget.EditText (3)'), '085216522397', 0)
+Mobile.setText(findTestObject('Object Repository/Register/android.widget.EditText (3)'), '1234567890', 0)
+
+Mobile.tap(findTestObject('Object Repository/Register/android.widget.TextView - Gender'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Register/android.widget.TextView - Password'), 0)
 
@@ -44,11 +46,9 @@ Mobile.setText(findTestObject('Object Repository/Register/android.widget.EditTex
 
 Mobile.tap(findTestObject('Object Repository/Register/android.widget.TextView - Confirm Password'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Register/android.widget.EditText - 085216522397 (1)'), '1234567890', 0)
+Mobile.setText(findTestObject('Register/android.widget.EditText (5)'), 'Testing123456', 0)
 
-Mobile.tap(findTestObject('Object Repository/Register/android.widget.Button - SUBMIT (1)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Register/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Register/android.widget.Button - SUBMIT'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Register/android.widget.Button - arrow back'), 0)
 
