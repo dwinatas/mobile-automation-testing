@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5ff9309c-be62-4866-ae07-df87f7f86079</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33149d34-f8c3-41e5-890c-45014ec358c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33149d34-f8c3-41e5-890c-45014ec358c5</id>
+      <masked>false</masked>
+      <name>appFile</name>
+   </variable>
 </TestCaseEntity>

@@ -34,6 +34,11 @@ public class GlobalVariable {
      */
     public static Object G_SiteURL
      
+    /**
+     * <p></p>
+     */
+    public static Object G_AndroidApp
+     
 
     static {
         try {
@@ -46,6 +51,7 @@ public class GlobalVariable {
             G_AppPath = selectedVariables['G_AppPath']
             G_ShortTimeOut = selectedVariables['G_ShortTimeOut']
             G_SiteURL = selectedVariables['G_SiteURL']
+            G_AndroidApp = selectedVariables['G_AndroidApp']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

@@ -17,8 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/lidya/Downloads/Wina/automation-katalon/mobile-automation-testing/Data Files/com.mpayror.www_2018-01-09.apk', 
-    true)
+String appFile = GlobalVariable.G_AndroidApp
+
+Mobile.startApplication(appFile, true)
 
 Mobile.tap(findTestObject('Object Repository/Register/android.widget.Button - REGISTRATION'), 0)
 
